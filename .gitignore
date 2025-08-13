@@ -14,9 +14,9 @@ env/
 media/
 staticfiles/
 
-# === Node / React ===
-frontend/node_modules/
-frontend/build/
+# === Node / React ==
+/node_modules/
+/build/
 
 # === System files ===
 .DS_Store
