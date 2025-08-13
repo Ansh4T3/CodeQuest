@@ -1,25 +1,23 @@
-# ===== Python / Django =====
+# === Python / Django ===
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.db
 *.sqlite3
 *.log
-db.sqlite3
+.env
+venv/
+env/
+*.pot
+*.mo
 media/
 staticfiles/
-.env
 
-# ===== Node / React =====
+# === Node / React ===
 frontend/node_modules/
 frontend/build/
 
-# ===== OS / Editor =====
+# === System files ===
 .DS_Store
 Thumbs.db
-*.swp
-*.swo
-.vscode/
-
-# ===== Logs =====
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
