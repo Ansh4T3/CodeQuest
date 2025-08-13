@@ -12,9 +12,9 @@ env/
 **/migrations/*.pyo
 
 # Node & React
-/frontend/node_modules/
-/frontend/build/
-/frontend/.env
+node_modules/
+build/
+/.env
 
 # OS / Editor junk
 .DS_Store
