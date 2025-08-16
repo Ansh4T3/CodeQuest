@@ -65,6 +65,7 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
+                'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
@@ -84,6 +85,13 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
+}
+
+# MongoDB connection settings
+MONGO_DB_SETTINGS = {
+    'HOST': 'mongodb://localhost:27017/',
+    'NAME': 'CodeQuest',   # your database name in Compass
+    'COLLECTION': 'Problems'  # example collection
 }
 
 # Password validation
