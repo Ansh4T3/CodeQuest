@@ -18,7 +18,6 @@ codeQuest/
 ├── backend/                 # Django Backend
 │   ├── codequest_backend/  # Django project settings
 │   ├── problems/           # Problems app
-│   ├── submissions/        # Submissions app
 │   ├── requirements.txt    # Python dependencies
 │   └── manage.py          # Django management
 ├── frontend/               # React Frontend
@@ -114,13 +113,6 @@ codeQuest/
 - **Code Execution**: Subprocess with GCC compiler
 - **Styling**: Bootstrap 5
 
-## 🔒 Security Features
-
-- CORS enabled for development
-- Temporary file execution for code safety
-- Timeout limits on code execution
-- Input validation and sanitization
-
 ## 🚧 Development Notes
 
 - This is an MVP version
@@ -128,16 +120,3 @@ codeQuest/
 - Test cases are stored in MongoDB
 - Code execution happens in temporary directories
 - Scoring is percentage-based on hidden test cases
-
-## 🤝 Contributing
-
-Feel free to contribute to this project by:
-- Adding support for more programming languages
-- Improving the UI/UX
-- Adding more security features
-- Implementing user authentication
-- Adding leaderboards and rankings
-
-## 📝 License
-
-This project is open source and available under the MIT License.
